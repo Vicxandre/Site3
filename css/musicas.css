@@ -1,0 +1,43 @@
+.quadro{
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+}
+iframe{
+    border-radius: 10px;
+    box-shadow: 2px 2px darkslategrey;
+}
+.a1{
+    width: 290px;
+    padding: 5px;
+    height: auto;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+.a3:hover {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #0c63e4;
+}
+.a3{
+    margin-left: 3%;
+    margin-right: 3%;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: red;
+}
+h1 {
+    color: white;
+}
+h3 {
+    color: white;
+}

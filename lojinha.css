@@ -1,0 +1,139 @@
+body{
+    background-color: white;
+}
+.menu{
+    position: fixed;
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-radius: 5px;
+}
+.menu2{
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.cadastro{
+    float: right;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+.login{
+    display: inline-block;
+    color: black;
+    padding: 6px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+}
+.login:hover {
+    border-top: 1px solid black;
+    text-decoration: none;
+    color: black;
+    background-color: #f1f1f1;
+}
+.logo{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    width: auto;
+    padding: 16px;
+    font-size: 25px;
+    border-radius: 4px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    margin-right: 20px;
+    text-align: center;
+}
+.logo:hover {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    background-color: #f1f1f1;
+}
+.carrinho{
+    display: inline-block;
+    margin-right: 2%;
+    float: right;
+    width: auto;
+    padding: 16px;
+}
+.car{
+    text-align: center;
+    position: fixed;
+    right: 50px;
+    top: 79px;
+    text-decoration: none;
+    color: black;
+    width: 120px;
+    padding: 16px;
+    border: 1px solid black;
+}
+.car:hover {
+    background-color: #f1f1f1;
+    text-decoration: none;
+    color: black;
+}
+.carrosel{
+    width: 400px;
+    height: auto;
+}
+.foto{
+    width: 400px;
+    height: auto;
+}
+.linkCompra{
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    color: black;
+    padding: 16px;
+    border-bottom: 1px solid black;
+}
+.descricao{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.linkCompra:hover {
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    color: black;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid black;
+    padding: 16px;
+}
+.ropas{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+.imagens{
+    border-radius: 5px;
+    box-shadow: 1px 1px 0px 1px black;
+}
+.ropas1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 165px;
+    margin-left: 162px;
+
+}
